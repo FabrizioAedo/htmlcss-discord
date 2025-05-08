@@ -92,6 +92,8 @@
         background-color: white;
         border-radius: 20px;
     }
+
+    .logo_img{}
     
     /*jumbotron*/
     
@@ -142,6 +144,7 @@
         background-color: black;
         color: white;
     }
+
 
     
     /*sezioni*/
@@ -200,10 +203,27 @@
         margin: 0 auto;
     }
     
+    h2{
+        text-align: center;
+    }
+
+    .button-fs{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        background-color: rgb(123,141,218);
+        margin: 20px auto;
+        max-width: 15%;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+
+    }
+
     /*footer*/
     
     footer{
-        background-color: black;
+        background-color: rgb(27,29,32);
         padding: 50px 0;
     }
     
@@ -215,12 +235,12 @@
     
     .footer-left{
         flex-basis: 30%;
-        background-color: rgb(229,103,107);
+        background-color: rgb(27,29,32);
     }
     
     .footer-right{
         flex-basis: 70%;
-        background-color: rgb(33,164,153);
+        background-color: rgb(27,29,32);
     }
     
     .footer-nav{
@@ -241,6 +261,45 @@
     
     .footer-bottom > *{
         
-        background-color: rgb(253,165,179);
+        background-color: rgb(27,29,32);
     }
     
+    h3{
+        font-size: 2rem;
+        padding: 10px 10px ;
+        color: rgb(64,77,137);
+    }
+    .ita{
+        padding: 10px 10px;
+        height: 50px;
+        
+    }
+
+    .flex-2{
+        display: flex;
+        align-items: center;
+    }
+ 
+    .flex-2 p{
+        color: white;
+    }
+
+    .text-blue{
+        color: rgb(64,77,137);
+        
+
+    }
+    ul{
+        list-style: none;
+        color: white;
+        padding: 10px 10px;
+        line-height: 30px;
+    }
+
+    .button-ft{
+        background-color: rgb(123,141,218);
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 20px;
+    }
